@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{9AE2D24C-4C95-436E-AA1B-06281F61D5B7}</ProjectGuid>
+    <ProjectGuid>{90897483-7D24-4ABF-90EF-0FE31D883E18}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_01_Data_Types</RootNamespace>
-    <AssemblyName>01_Data_Types</AssemblyName>
+    <RootNamespace>CarInsurance</RootNamespace>
+    <AssemblyName>CarInsurance</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,7 +42,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FacebookSignup.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
